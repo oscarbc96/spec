@@ -6,7 +6,7 @@ toolchain go1.23.12
 
 require (
 	github.com/gofiber/fiber/v2 v2.52.9
-	github.com/oaswrap/spec v0.3.5
+	github.com/oaswrap/spec v0.3.6
 	github.com/oaswrap/spec-ui v0.1.4
 	github.com/stretchr/testify v1.11.1
 )
@@ -33,5 +33,3 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-replace github.com/oaswrap/spec => ../..
